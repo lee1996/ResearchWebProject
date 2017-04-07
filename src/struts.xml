@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<package name="com.leet.login" extends="struts-default">
+<action name="login"  class="com.leet.login.LoginAction">
+<result name="success">/WEB-INF/manage.jsp</result>
+<result name="error">/error.jsp</result>
+<result name="input">/login.jsp</result>
+</action>
+<action name="regist" class="com.leet.login.RegistAction">
+<result name="success">/login.jsp</result>
+<result name="error">/error.jsp</result>
+<result name="input">/regist.jsp</result>
+</action>
+<action name="add" class="com.leet.manage.AddAction">
+<result name="success">/WEB-INF/manage.jsp</result>
+<result name="input">/WEB-INF/add.jsp</result>
+<result name="error">/error.jsp</result>
+</action>
+<action name="for_add" class="com.leet.manage.ForAddAction">
+<result name="success">/WEB-INF/add.jsp</result>
+</action>
+<action name="update"  class="com.leet.manage.UpdateAction">
+<result name="success">/WEB-INF/manage.jsp</result>
+<result name="input">/detail.jsp</result>
+<result name="error">/error.jsp</result>
+</action>
+<action name="delProject" class="com.leet.manage.DelAction">
+<result name="success">/WEB-INF/manage.jsp</result>
+</action>
+</package>
+</struts>    
