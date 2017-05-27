@@ -1,1 +1,1 @@
-# research_webproject企业java项目作业，科研项目管理，用struts2和jdbc作为数据处理和存储框架。
+# research_webproject为数据库课程设计作业，科研项目管理，用struts2和jdbc作为数据处理和存储框架。
